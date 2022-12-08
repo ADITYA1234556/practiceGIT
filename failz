@@ -18,3 +18,10 @@ git remote add origin SSHliknk if ssh access token is created or else we use HTT
 git remote -v to check the version
 to change the origin url
 git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+
+
+TO add ssh token for avoiding token login for git push
+add ssh and gpg keys -> go to genereate new SSH ->take this code from there to use in our linux machine CLI 
+ssh-keygen -t ed25519 -C "adityanavaneethan98@gmail.com" put this command with your email ID and hit enter
+now in .ssh path we will have two more file cat the .pub content and paste it in SSHANDGPG keys -> add new SSH key give title and paste the content of .pub file and add SSH key.
+
