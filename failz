@@ -25,3 +25,5 @@ add ssh and gpg keys -> go to genereate new SSH ->take this code from there to u
 ssh-keygen -t ed25519 -C "adityanavaneethan98@gmail.com" put this command with your email ID and hit enter
 now in .ssh path we will have two more file cat the .pub content and paste it in SSHANDGPG keys -> add new SSH key give title and paste the content of .pub file and add SSH key.
 
+how to delete a branch
+git brach -d branchname
