@@ -7,4 +7,5 @@ to go squash type git rebase -i head¬3
 differbec b.w git types soft mixed and hard 
 git reset --soft <commit id>
 git reset --hard <commit id>
-  
+soft keeps the files and marges the commit 
+hard deletes the changes after the commit id chosen  
