@@ -10,3 +10,4 @@ git reset --hard <commit id>
 soft keeps the files and marges the commit 
 hard deletes the changes after the commit id chosen  
 git fetch change
+new commit
