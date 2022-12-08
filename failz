@@ -12,3 +12,9 @@ hard deletes the changes after the commit id chosen
 git fetch change
 new commit
 git pull if new commits in same file it will still pull
+
+To add a remote repo to local machine repo after git init
+git remote add origin SSHliknk if ssh access token is created or else we use HTTPS link
+git remote -v to check the version
+to change the origin url
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
