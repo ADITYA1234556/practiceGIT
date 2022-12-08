@@ -27,3 +27,7 @@ now in .ssh path we will have two more file cat the .pub content and paste it in
 
 how to delete a branch
 git brach -d branchname
+
+when the local repo is fast forward from remote repo we can use  git pull --rebase origin master 
+#ofc after connecting with remote repo and checkin via git remote -v
+now if will be set to push git push origin master
