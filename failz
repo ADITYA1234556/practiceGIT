@@ -11,3 +11,4 @@ soft keeps the files and marges the commit
 hard deletes the changes after the commit id chosen  
 git fetch change
 new commit
+git pull if new commits in same file it will still pull
