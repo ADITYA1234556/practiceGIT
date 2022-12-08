@@ -1,3 +1,10 @@
 git tool
 git squash practice
+git suqash is merging 3-4 commits in one commit
+if commits are merged they cant be unmerged in seperate commits again
+to go squash type git rebase -i head¬3
 
+differbec b.w git types soft mixed and hard 
+git reset --soft <commit id>
+git reset --hard <commit id>
+  
