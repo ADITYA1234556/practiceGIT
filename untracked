@@ -1,3 +1,8 @@
 git reset filename to move from tracked to untracked
 add pushes from tracked to stage area
+<<<<<<< Updated upstream
 git stash pop and git stash apply
+=======
+
+git stash list 
+>>>>>>> Stashed changes
